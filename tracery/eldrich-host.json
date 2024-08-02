@@ -1,0 +1,251 @@
+{
+"origin" : ["#HOOK# \\#eclipsephase \\#rpghooks"],
+
+"HOOK" : [
+ "#PERSON_INDIVIDUAL.capitalize# #JOB_CONJUNCTION# #JOB#.",
+ "#PERSON_INDIVIDUAL.capitalize# #JOB_CONJUNCTION# examine #ARTIFACT.a# #ARTIFACT_DETAIL#.",
+ "#PERSON_INDIVIDUAL.capitalize# #JOB_CONJUNCTION# retrieve #MCGUFFIN#.",
+ "#PERSON_INDIVIDUAL.capitalize# #JOB_CONJUNCTION# #JOB#. #JOB_CLIENT_COMPLICATION.capitalize#.",
+ "You've been hired to #JOB#. #COMPLICATION_CONJUNCTION.capitalize#, #JOB_COMPLICATION#.",
+ "#MCGUFFIN_ARTIFACT.a.capitalize# appears in #GROUP_RISKY.a# facility.",
+ "#MCGUFFIN_ARTIFACT.a.capitalize# is being sold by a #GROUP_GANG# fence."
+],
+
+"JOB_CONJUNCTION" : [
+ "is looking for someone to",
+ "messages you with an offer: ", 
+ "contacts you via #MISC_NETWORK#, asking if you're willing to",
+ "seeks parties willing to",
+ "offers work for a team that can",
+ "is making discreet inquiries, seeking someone to",
+ "needs a trustworthy partner to"
+],
+
+"COMPLICATION_CONJUNCTION" : [
+ "curiously",
+ "however",
+ "unfortunately",
+ "ironically",
+ "coincidentally"
+],
+
+"JOB_COMPLICATION" : [
+ "the client is your own alpha fork",
+ "your server has just been compromised",
+ "a nearby habitat has just gone dark",
+ "several local #VOCATION_GENERIC#s have disappeared under suspicious circumstances",
+ "a Scum swarm's arrival has thrown local networks into chaos"
+],
+
+"JOB_CLIENT_COMPLICATION" : [
+ "they need a response within the hour",
+ "no pay is mentioned, but their #MISC_REP# is… impressive",
+ "they promise prompt payment, but don't mention how much",
+ "they promise wealth beyond your wildest dreams",
+ "you suspect it might be a trap"
+],
+
+"ACTIVITY" : ["#ACTIVITY_RISKY#"],
+"ACTIVITY_RISKY" : [
+ "distributing XP recordings of TQZ incursions"
+],
+
+"PERSON_INDIVIDUAL" : [
+ "a burner mesh ID",
+ "an anonymous local",
+ "#VOCATION_GENERIC.a#",
+ "#GROUP_MOVEMENT.a# #VOCATION_GENERIC#",
+ "a blacklisted #GROUP_MOVEMENT#",
+ "#GROUP_GANG.a# #VOCATION_CRIMINAL#",
+ "#GROUP_GOVERNMENT.a# #VOCATION_GOVERNMENT#",
+ "#GROUP_HYPERCORP.a# #VOCATION_HYPERCORP#",
+ "a local #VOCATION_GENERIC#"
+],
+
+"VOCATION" : ["#VOCATION_CRIMINAL#", "#VOCATION_GOVERNMENT#", "#VOCATION_HYPERCORP#", "#VOCATION_LEGIT#"],
+"VOCATION_CRIMINAL" : ["hitter", "smuggler", "fixer", "fence"],
+"VOCATION_GOVERNMENT" : ["representative", "negotiator", "bureaucrat", "investigator", "intelligence officer"],
+"VOCATION_HYPERCORP" : ["executive", "auditor", "researcher", "VP"],
+"VOCATION_GENERIC" : ["pilot", "psychosurgeon", "middleware developer", "engineer", "VIP", "journalist"],
+
+"GROUP" : [
+ "#GROUP_GOVERNMENT#", "#GROUP_MOVEMENT#", "#GROUP_GANG#", "#GROUP_HYPERCORP#"
+],
+"GROUP_GOVERNMENT" : [
+ "Autonomist", "Extropian", "Jovian", "Lunar-Lagrange Alliance", "Morningstar", "Planetary Consortium", "Tharsis League", "Titanian"
+],
+"GROUP_MOVEMENT" : [
+ "Anarchist", "Argonaut", "Barsoomian", "bioconservative", "Brinker", "Exhuman", "Mercurial", "nano-ecologist", "Neo-Buddhist", "preservationist", "Reclaimer", "socialite", "technocreationist", "Ultimate", "Xenodeist"
+],
+"GROUP_GANG" : [
+ "14K", "Big Circle", "ID Crew", "Night Cartel", "Nine Lives", "Pax Familae", "pirate", "Shui Fong", "Sun Yee On"
+],
+"GROUP_HYPERCORP" : [
+ "Cognite", "Comet Express", "Direct Action", "Ecologene", "Exotech", "Experia", "Fa Jing", "Gatekeeper", "Go-Nin Group", "Gorgon", "Nimbus", "Omnicor", "Pathfinder", "Prosperity Group", "Skineasthesia", "Skinthetic", "Solaris", "Somatex", "Starware", "Stellar Intelligence", "Terragenesis"
+],
+"GROUP_RISKY" : [
+ "Ozma",
+ "Nine Lives",
+ "Cognite",
+ "Firewall"
+],
+"GROUP_FACTION_WEIGHTED": [
+"Anarchist", "Anarchist", "Anarchist", "Anarchist", 
+"Argonaut", "Argonaut", "Argonaut", "Argonaut", 
+"Barsoomian", "Barsoomian", "Barsoomian", "Barsoomian", "Barsoomian", 
+"Belter", "Belter", 
+"Bioconservative", "Bioconservative", 
+"Brinker", "Brinker", "Brinker", "Brinker", 
+"Criminal", "Criminal", "Criminal", "Criminal", "Criminal", "Criminal", 
+"Exhuman", "Exhuman", 
+"Extropian", "Extropian", "Extropian", 
+"Factor",
+"Firewall", "Firewall",
+"Hypercorp", "Hypercorp", "Hypercorp", "Hypercorp", "Hypercorp", "Hypercorp", "Hypercorp", "Hypercorp", "Hypercorp", "Hypercorp", 
+"Jovian", "Jovian", "Jovian", "Jovian", 
+"Lunar", "Lunar", "Lunar", "Lunar", "Lunar", "Lunar",
+"Mercurial", "Mercurial", "Mercurial", 
+"Nano-Ecologist",
+"Orbital", "Orbital",
+"Out'ster",
+"Precautionist",
+"Preservationist",
+"Reclaimer", 
+"Ringer", "Ringer", "Ringer", 
+"Sapient", "Sapient", "Sapient", 
+"Scum", "Scum", "Scum", "Scum", 
+"Sifter", 
+"Skimmer", 
+"Socialite", "Socialite", "Socialite", "Socialite", 
+"Solarian", "Solarian", "Solarian", "Solarian", "Solarian", 
+"Titanian", "Titanian", "Titanian", "Titanian", 
+"Ultimate", 
+"Venusian" 
+],
+
+"MCGUFFIN" : [
+ "#MCGUFFIN_ARTIFACT.a#", 
+ "#MCGUFFIN_CARGO.a#", 
+ "#MCGUFFIN_DATA#"
+],
+
+"MCGUFFIN_ARTIFACT" : ["#ARTIFACT# #ARTIFACT_DETAIL#", "#ARTIFACT#"],
+"ARTIFACT" : [
+ "thin wafer of mineral lattice",
+ "32cm mercury sphere",
+ "box of cortical stacks",
+ "batch of Halcyons",
+ "intact Ny'Knikiin pod",
+ "sample of Fuckslime gelatin",
+ "desiccated human corpse",
+ "shielded specimen container",
+ "fractaline Iktomi relic",
+ "iron crystal"
+],
+"ARTIFACT_DETAIL" : [
+ "that appears opaque to T-rays",
+ "with suspicious provenance",
+ "emitting regular radio pulses",
+ "whose owner committed suicide",
+ "from the TQZ"
+],
+
+"MCGUFFIN_CARGO" : [
+ "cache of pre-fall egos",
+ "live biological sample",
+ "several hundred kilograms of exotic feedstock",
+ "lost cortical stack"
+],
+"MCGUFFIN_SALVAGE" : [
+ "derelict habitat near #LOCATION_BODY#",
+ "abandoned SLOTV",
+ "transport LOTV ambushed by pirates"
+],
+"MCGUFFIN_STORAGE" : [
+ "EMP-hardened ecto",
+ "handful of storage chips",
+ "remote archive",
+ "backup"
+],
+"MCGUFFIN_DATA" : [
+ "XP footage of an assassination",
+ "petabytes of #GROUP_HYPERCORP# research data",
+ "the identities of several Pre-Fall criminals",
+ "incriminating access logs",
+ "the beta fork of #GROUP_HYPERCORP.a# executive"
+],
+
+"LOCATION_BODY" : [
+  "Saturn", "Atlas", "Dione", "Enceladus", "Hyperion", "Iapetus", "Pandora", "Rhea", "Tethys", "Titan", "Uranus", "Neptune", "Titania", "Oberon", "Sol", "Mercury", "Venus", "Earth", "Luna", "Mars", "Ceres", "Jupiter", "Europa", "Ganymede", "Callisto", "Io", "Eris", "Pluto", "Pheobe"
+],
+"LOCATION_HABITAT" : [
+  "New Quebec", "Hyoden", "Liberty", "Locus", "Lot 49", "Meathab", "Mimas", "Pan", "Phelan’s Recourse", "Prometheus", "Chat Noir", "Xiphos", "Erato", "Nectar", "Akosha", "Elysium", "Noctis-Qianjiao", "Olympus", "Progress", "Qing Long", "Valles-New Shanghai", "Extropia", "Nova York", "Amalthea", "Habitat On The Rock", "Haumea", "Markov", "Frozen Dreams", "Whiskey Station", "Tulihänd", "Aarhus", "Nyhavn", "Shackleton-New Veranasi"
+],
+"LOCATION_REGION" : [
+ "Ma’adim Vallis", "Olympus Mons", "the TQZ", "Valles Marineris", "the Asteroid Belt", "the Kuiper Belt", "the Oort Cloud", "the Jovian Trojans", "the Twelve Commons"
+],
+
+"JOB" : ["#JOB_SALVAGE#", "#JOB_TRANSPORT#", "#JOB_AGGRO#", "#JOB_MYSTERY#", "#JOB_SKILL#"],
+
+"JOB_SALVAGE" : [
+ "strip #MCGUFFIN_SALVAGE.a#",
+ "recover #MCGUFFIN_CARGO.a#",
+ "retrieve #MCGUFFIN_CARGO.a#",
+ "locate #MCGUFFIN_STORAGE.a# containing #MCGUFFIN_DATA#",
+ "find and destroy #MCGUFFIN_STORAGE.a# containing #MCGUFFIN_DATA#"
+],
+
+"JOB_TRANSPORT" : [
+ "guard a shipment",
+ "protect a VIP",
+ "smuggle illegal goods",
+ "accompany a traveler",
+ "sneakernet #MCGUFFIN_DATA#",
+ "keep a package in escrow",
+ "shuttle a team to #LOCATION_HABITAT#",
+ "install a farcaster at #LOCATION_HABITAT#",
+ "exfiltrate an ops team from #LOCATION_REGION#"
+],
+
+"JOB_MYSTERY" : [
+ "locate a missing loved one",
+ "dig up dirt on a #GROUP# leader",
+ "reverse engineer software",
+ "determine what an artifact does",
+ "monitor a #GROUP# VIP",
+ "reconstruct erased memories",
+ "uncover a morph's history",
+ "research a rival",
+ "track down a security leak",
+ "search an accident scene for clues"
+],
+
+"JOB_AGGRO" : [
+ "wipe evidence of a breakin",
+ "assassinate a public figure",
+ "burn a server",
+ "kill an infected pedestrian",
+ "destroy a ship",
+ "nuke a rogue beta fork",
+ "destroy a competitor's merch",
+ "destroy a microhabitat"
+],
+
+"JOB_SKILL" : [
+ "design custom software",
+ "crack security",
+ "fill out a gatecrashing team",
+ "tear down a wreck",
+ "plan a heist",
+ "organize an AR performance",
+ "repair busted equipment",
+ "create a panopticon black spot"
+],
+
+"MISC_NETWORK" : [
+ "the @-list", "CivicNet", "EcoWave", "the Fame network", "the Guanxi network", "the Eye", "RNA", "XNET"
+],
+"MISC_REP" : [
+ "@-rep", "c-rep", "e-rep", "f-rep", "g-rep", "i-rep", "r-rep", "x-rep"
+]
+}

@@ -1,0 +1,18 @@
+{
+  "origin" : ["#foodPrefix# #foodWhole##tm#", "#foodPrefix# #foodWhole##tm#", "#drink#"],
+  "tm" : ["", "", "", "", "™", "®"],
+  "foodSuperlative" : ["el grande", "ultra", "impressivo", "loaded"],
+  "foodModifier" : ["breakfast", "pocket"],
+  "foodStart" : ["quesa", "enchi", "guaca", "taco", "crave-a"],
+  "foodEnd": ["rito", "lada", "tada", "nada", "dilla", "lupa"],
+  "foodPlain" : ["taquito", "taco", "enchilada", "tortilla", "burrito", "chilaquile", "fajita", "quesadilla", "nachos", "tostada", "gordita", "chalupa", "wrap", "tamale", "empanada"],
+  "foodMeat" : ["pork", "beef", "steak", "chicken", "shrimp", "mushroom", "bean"],
+  "foodFlavor" : ["guacamole", "ranch", "blazin’", "chipotle", "verde", "mole"],
+  "place" : ["yucatan", "baja", "cancún", "tijuana", "cozumel", "cabos", "ixtapa", "chihuahua", "toluca"],
+  "drinkVerb" : ["blast", "splash", "burst", "chill"],
+  "drinkFlavor" : ["strawberry", "lime", "margarita", "mango"],
+  "drink" : ["#place# #drinkVerb# mountain dew", "#place# #drinkFlavor# freeze"],
+  "foodWhole" : ["#foodPlain#", "#foodPlain#", "#foodStart##foodEnd#"],
+  "foodPrefix" : ["#foodSuperlative# #foodMeat#", "#foodFlavor# #foodModifier#", "#foodSuperlative# #foodModifier#", "#foodFlavor# #foodMeat#"]
+}
+
